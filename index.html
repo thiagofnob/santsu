@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/gift_86045.svg" type="image/x-icon">
+    <title>SanTsu</title>
+</head>
+<body>
+
+    <header>
+        <div class="content flex">
+            <div class="logo">
+                <img src="images/Group 65 1.png" alt="Logo SanTsu e duas personagens">
+            </div>
+            <nav class="links">
+                <a href="#">Cartões</a>
+                <a href="#">Contato</a>
+            </nav>
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <a href="#">Cartões</a>
+                  <a href="#">Contato</a>
+                </div>
+            </div>              
+            <span id="mySpan" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="content flex">
+            <div class="text">
+                <h1>Lorem ipsum dolor sit amet</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu massa sit amet augue consectetur ullamcorper non ac massa.</p>
+                <button id="btn">Botão</button>
+            </div>
+            <img src="images/image 1.png" alt="Duas caixas de presentes com três personagens em volta">
+        </div>
+    </section>
+
+    <main>
+        <div class="content">
+        <h2>Cartões</h2>
+        <section class="cards flex">            
+            <div class="card">
+                <div class="cardsize card1"></div>
+                <div class="cardtext">
+                    <h3>Título do card</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in et nisl.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardsize card2"></div>
+                <div class="cardtext">
+                    <h3>Título do card</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in et nisl.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardsize card3"></div>
+                <div class="cardtext">
+                    <h3>Título do card</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in et nisl.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardsize card4"></div>
+                <div class="cardtext">
+                    <h3>Título do card</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in et nisl.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardsize card5"></div>
+                <div class="cardtext">
+                    <h3>Título do card</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in et nisl.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardsize card6"></div>
+                <div class="cardtext">
+                    <h3>Título do card</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in et nisl.</p>
+                </div>
+            </div>
+        </div>            
+        </section>
+
+        <section class="contact">
+            <div class="contact-title">
+                <h2>Entre em contato</h2>
+            </div>
+            <form class="contato">
+                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="Telefone">
+                <textarea placeholder="Mensagem..." id="" cols="1" maxlength="280"></textarea>
+                <button id="btn-msg">Enviar mensagem</button>                
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Essa página foi inspirada no Desafio 3 do @iuricode para fins educacionais. </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
